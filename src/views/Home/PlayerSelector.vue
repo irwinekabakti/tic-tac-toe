@@ -1,6 +1,6 @@
 <template>
   <div class="selector">
-    <p>PICK PLAYER 1'S MARK</p>
+    <p>PICK PLAYER 1'S LAD</p>
     <div class="player-type">
       <div :class="xTypeSelected && 'selected'" @click="selectX">
         <img :src="xIcon" alt="" />
